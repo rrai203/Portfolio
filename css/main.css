@@ -1,0 +1,401 @@
+body {
+	background-color: #88BDBC;
+}
+
+.navbar-brand {
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+	color: #ffffff;
+}
+
+.navbar-nav .nav-link {
+	color: #ffffff;
+}
+
+.navbar {
+	background-color: #112D32;
+}
+
+/*Media query for adhustment of section element*/
+.intro {
+	padding-bottom: 30px;
+}
+
+@media (max-width:576px) {
+	.discription {
+		position: relative;
+		margin-top: 100px;
+		text-align: center;
+	}
+
+	.my_photo {
+		position: relative;
+		margin-top: 40px;
+	}
+
+}
+
+@media (min-width:577px) and (max-width:768px) {
+	.discription {
+		position: relative;
+		margin-top: 100px;
+		text-align: center;
+	}
+
+	.my_photo {
+		position: relative;
+		margin-top: 150px;
+	}
+
+}
+
+@media (min-width:769px) and (max-width:992px) {
+	.discription {
+		position: relative;
+		margin-top: 120px;
+		text-align: center;
+	}
+
+	.my_photo {
+		position: relative;
+		margin-top: 100px;
+	}
+
+}
+
+@media (min-width:993px) and (max-width:1200px) {
+	.discription {
+		position: relative;
+		margin-top: 200px;
+		text-align: center;
+	}
+
+	.my_photo {
+		position: relative;
+		margin-top: 120px;
+	}
+
+}
+
+@media (min-width:1201px) {
+	.discription {
+		position: relative;
+		margin-top: 240px;
+		text-align: center;
+	}
+
+	.my_photo {
+		position: relative;
+		margin-top: 70px;
+	}
+
+}
+
+/*Style for Article*/
+article {
+	background-color: #ffffff;
+	padding-bottom: 40px;
+}
+
+.achivements {
+	text-align: center;
+}
+
+.progress-bar1 {
+	width: 50%;
+}
+
+.progress-bar2 {
+	width: 60%;
+}
+
+.progress-bar3 {
+	width: 80%;
+}
+
+.progress-bar4 {
+	width: 70%;
+}
+
+.progress-bar5 {
+	width: 30%;
+}
+
+.progress-bar6 {
+	width: 80%;
+}
+
+@media (max-width:576px) {
+	.aboutme {
+		padding-top: 30px;
+		text-align: center;
+	}
+
+	.detail {
+		padding-top: 20px;
+	}
+
+	.projects {
+		text-align: center;
+	}
+
+	.workhead {
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+
+	.skill {
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+
+	.progress {
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+
+}
+
+@media (min-width:577px) and (max-width:768px) {
+	.aboutme {
+		padding-top: 30px;
+		text-align: center;
+	}
+
+	.detail {
+		padding-top: 20px;
+	}
+
+	.projects {
+		text-align: center;
+	}
+
+	.workhead {
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+
+	.skill {
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+
+	.progress {
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+
+}
+
+@media (min-width:769px) and (max-width:992px) {
+	.aboutme {
+		padding-top: 70px;
+		text-align: center;
+	}
+
+	.detail {
+		padding-top: 20px;
+	}
+
+	.projects {
+		text-align: center;
+	}
+
+	.workhead {
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+
+	.skill {
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+
+	.progress {
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+
+}
+
+@media (min-width:993px) and (max-width:1200px) {
+	.aboutme {
+		padding-top: 70px;
+		text-align: center;
+	}
+
+	.detail {
+		padding-top: 20px;
+	}
+
+	.projects {
+		text-align: center;
+	}
+
+	.workhead {
+		padding-top: 40px;
+		padding-bottom: 30px;
+	}
+
+	.skill {
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+
+	.progress {
+		margin-top: 15px;
+		margin-bottom: 15px;
+	}
+
+}
+
+@media (min-width:1201px) {
+	.aboutme {
+		padding-top: 70px;
+		text-align: center;
+	}
+
+	.detail {
+		padding-top: 20px;
+	}
+
+	.projects {
+		text-align: center;
+	}
+
+	.workhead {
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+
+	.skill {
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+
+	.progress {
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+
+}
+
+/*Style for Contact Me*/
+.contact {
+	padding-top: 60px;
+	padding-bottom: 40px;
+}
+
+@media (max-width:576px) {
+	.mydetail {
+		text-align: center;
+		padding-top: 20px;
+		padding-bottom: 30px;
+	}
+
+}
+
+@media (min-width:577px) {
+	.mydetail {
+		text-align: center;
+		padding-top: 0px;
+	}
+
+}
+
+/*Footer Style*/
+footer {
+	background-color: #112D32;
+	text-align: center;
+	color: #ffffff;
+	padding-bottom: 40px;
+}
+
+.footerlist {
+	list-style-type: none;
+}
+
+.link2 {
+	color: #ffffff;
+}
+
+.copyright {
+	position: relative;
+	bottom: 0;
+}
+
+@media (max-width:576px) {
+	.disclaimer {
+		padding-top: 30px;
+		padding-bottom: 20px;
+	}
+
+	.copyright {
+		padding-top: 40px;
+	}
+
+}
+
+@media (min-width:577px) and (max-width:768px) {
+	.disclaimer {
+		padding-top: 30px;
+		padding-bottom: 20px;
+	}
+
+	.copyright {
+		padding-top: 40px;
+	}
+
+	.footerlist {
+		padding-top: 30px;
+	}
+
+}
+
+@media (min-width:769px) and (max-width:992px) {
+	.disclaimer {
+		padding-top: 30px;
+		padding-bottom: 20px;
+	}
+
+	.copyright {
+		padding-top: 40px;
+	}
+
+	.footerlist {
+		padding-top: 30px;
+	}
+
+}
+
+@media (min-width:993px) and (max-width:1200px) {
+	.disclaimer {
+		padding-top: 30px;
+		padding-bottom: 20px;
+	}
+
+	.copyright {
+		padding-top: 40px;
+	}
+
+	.footerlist {
+		padding-top: 30px;
+	}
+
+}
+
+@media (min-width:1201px) {
+	.disclaimer {
+		padding-top: 30px;
+		padding-bottom: 20px;
+	}
+
+	.copyright {
+		padding-top: 40px;
+	}
+
+	.footerlist {
+		padding-top: 30px;
+	}
+
+}
